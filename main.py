@@ -25,7 +25,7 @@ def view_tasks(tasks):
             if not tasks[i + 3]:
                 print(tasks[i] + " [] ", end="")
             elif tasks[i + 3]:
-                print(tasks[i] + " [\033[32m Done \033[0m] ", end="")
+                print(tasks[i] + " [ Done ] ", end="")
             print( tasks[i + 1] + " - " + tasks[i + 2] + ".")
     print("\n" + "-" * 18 + "\n")
 
